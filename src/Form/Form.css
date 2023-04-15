@@ -1,0 +1,76 @@
+
+.form-wrapper>form {
+    height: 100vh;
+}
+
+form input {
+    padding: 0;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.top-section {
+    padding: 2rem 0 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .buttons{
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.address {
+    margin: auto;
+    width: 23rem;
+}
+
+.single>input {
+    width: 23rem;
+}
+
+.multiple {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-list>.item-input {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-list>ul {
+    padding: 0;
+    display: grid;
+    gap: 0.6rem;
+}
+.show-list>ul>li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item, .item>input {
+    width: 14rem;
+}
+
+.qty, .price, .total, .delete, .qty>input, .price>input {
+    width: 4rem;
+    text-align: center;
+}
+
+.content {
+    margin: auto;
+    width: 70rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cluster {
+    display: flex;
+    flex-direction: column;
+}

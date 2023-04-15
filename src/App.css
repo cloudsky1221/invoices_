@@ -1,0 +1,31 @@
+/* ::-webkit-scrollbar {
+  width: 0.5rem;
+  background: var(--dark-theme-draft-back-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark-theme-single-list);
+} */
+
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.toggle {
+  position: absolute;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  /* height: 80vh; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

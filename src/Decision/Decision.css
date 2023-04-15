@@ -1,0 +1,9 @@
+.status {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

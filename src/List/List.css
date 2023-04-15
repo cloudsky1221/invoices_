@@ -1,0 +1,13 @@
+.first-visual>ul {
+    height: 6rem;
+    width: 50rem;
+    border-radius: 0.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-visual>ul li {
+    font-size: 1.2rem;
+}
